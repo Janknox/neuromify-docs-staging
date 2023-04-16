@@ -8,7 +8,7 @@ window.onload = function() {
       url = window.location.origin;
     }
     var options = {
-    "swaggerUrl": "https://us-central1-neuromify-a044c.cloudfunctions.net/swagger",
+    "swaggerUrl": "https://us-central1-neuromify-nonprod.cloudfunctions.net/doc/swagger",
     "customOptions": {}
   };
     url = options.swaggerUrl || url
